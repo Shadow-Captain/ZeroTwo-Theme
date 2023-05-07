@@ -1,0 +1,30 @@
+{
+  "name": "zerotwo-love-theme",
+  "displayName": "ZeroTwo Tema",
+  "description": "Tema de ZeroTwo para VSCode",
+  "version": "0.0.1",
+  "publisher": "SrShelby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shadow-Captain/ZeroTwo-Theme.git"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "activationEvents": [
+    "onCommand:zerotwo-theme.comando"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "zerotwo-love.comando",
+        "title": "Love"
+      }
+    ]
+  },
+  "icon": "icons/icon.png"
+}

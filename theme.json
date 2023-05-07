@@ -1,0 +1,63 @@
+{
+    "name": "ZeroTwo",
+    "colors": {
+      "editor.background": "#111",
+      "editor.foreground": "#ddd",
+      "editor.lineHighlightBackground": "#444",
+      "editorLineNumber.foreground": "#999",
+      "editorWhitespace.foreground": "#555",
+      "activityBar.background": "#111",
+      "activityBar.foreground": "#ddd",
+      "activityBarBadge.background": "#444",
+      "activityBarBadge.foreground": "#ddd",
+      "sideBar.background": "#222",
+      "sideBar.foreground": "#ddd",
+      "sideBarTitle.foreground": "#ddd",
+      "statusBar.background": "#111",
+      "statusBar.foreground": "#ddd",
+      "statusBar.noFolderBackground": "#111",
+      "statusBar.noFolderForeground": "#ddd",
+      "statusBar.debuggingBackground": "#444",
+      "statusBar.debuggingForeground": "#ddd"
+    },
+    "tokenColors": [
+      {
+        "name": "Comentarios",
+        "scope": "comment",
+        "settings": {
+          "foreground": "#999"
+        }
+      },
+      {
+        "name": "Cadenas de texto",
+        "scope": "string",
+        "settings": {
+          "foreground": "#e6db74"
+        }
+      },
+      {
+        "name": "Palabras clave",
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#66d9ef"
+        }
+      },
+      {
+        "name": "Números",
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#f92672"
+        }
+      }
+    ],
+    "tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+  }  
